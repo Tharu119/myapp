@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F8"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#25257C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#25257C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        app:backgroundTint="#25257C"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        app:backgroundTint="#25257C"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ROM - 64GB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="RAM - 6GB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Suppor allomed display"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="152dp"
+        android:layout_height="201dp"
+        app:srcCompat="@drawable/Mob5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Price- 45000/="
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Version -2019"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Samsun Galaxy A50"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/madddddd"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="45dp"
+        android:layout_height="41dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView29"
+        app:srcCompat="@drawable/ic_baseline_favorite"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="58dp"
+        android:layout_height="51dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/myToolbar"
+        app:srcCompat="@drawable/ic_baseline_home"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView31"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="52dp"
+        android:layout_height="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView30"
+        app:srcCompat="@drawable/ic_baseline_settings"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="46dp"
+        android:layout_height="56dp"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
